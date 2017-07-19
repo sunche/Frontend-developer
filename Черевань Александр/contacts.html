@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <title>Контакты | Дашкейк</title>
     <link rel="dashcake icon" href="images/dashcake.ico">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <ul>
+    <ul class="menu">
         <li><a href="index.html">Главная</a></li>
         <li><a href="catalog.html">Каталог</a></li>
         <li><a href="#">Контакты</a></li>
@@ -16,11 +17,11 @@
     <hr>
     <h1>Напишите нам</h1>
     <form action="#">
-        <label for="fld_name">Имя:</label><input type="text" placeholder="Имя" id="fld_name"><br>
-        <label for="fld_email">Email:</label><input type="email" placeholder="example@dashcake.com" id="fld_email"><br>
-        <label for="fld_theme">Тема:</label><input type="text" placeholder="Тема" id="fld_theme"><br>
-        <label for="txt_text">Текст:</label> <br><textarea name="emailtext" id="txt_text" cols="30" rows="10"></textarea> <br>
-        <input type="checkbox" id="chbx_subscription" checked><label for="chbx_subscription">подписаться на&nbsp;рассылку информационных сообщений.</label> <br>
+        <label for="fld_name">Имя:</label><input class="request-name" type="text" placeholder="Имя" id="fld_name"><br>
+        <label for="fld_email">Email:</label><input class="request-email" type="email" placeholder="example@dashcake.com" id="fld_email"><br>
+        <label for="fld_theme">Тема:</label><input type="text" class="request-theme" placeholder="Тема" id="fld_theme"><br>
+        <textarea name="emailtext" class="request-text" id="txt_text" cols="30" rows="10" placeholder="Текст обращения"></textarea> <br>
+        <input type="checkbox" id="chbx_subscription" class="check-subscription" checked><label for="chbx_subscription">подписаться на&nbsp;рассылку информационных сообщений.</label> <br>
         <input type="submit">
         <input type="reset">
     </form>

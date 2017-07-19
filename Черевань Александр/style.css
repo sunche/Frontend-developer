@@ -1,0 +1,84 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.menu {
+    font-size: 20px;
+    font-style: italic;
+    list-style-type: none;
+}
+
+.menu a {
+    color: darkseagreen;
+}
+
+.property-header {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.product-description {
+    color: black;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.product-properties {
+    font-weight: 800;
+    line-height: 20px;
+    list-style-image: url(images/cake_marker.png);
+}
+
+.product-properties ul {
+    list-style-image: url(images/cake_marker_2.png);
+}
+
+.product-deteiled-description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.request-name {
+    width: 200px;
+    margin-left: 15px;
+    height: 20px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.request-email {
+    width: 200px;
+    margin-left: 5px;
+    height: 20px;
+    margin-bottom: 5px;
+    font-style: italic;
+    color: darkblue;
+}
+
+.request-theme {
+    width: 200px;
+    margin-left: 10px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.request-text {
+    width: 245px;
+    font-family: "Times New Roman", sans-serif;
+    margin-bottom: 5px;
+}
+
+.check-subscription {
+    margin-bottom: 10px;
+}
+
+.product-img {
+    padding: 1px;
+    border: 1px solid #021a40;
+}
