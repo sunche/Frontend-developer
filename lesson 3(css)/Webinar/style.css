@@ -1,0 +1,39 @@
+body {
+    color: blue;
+}
+
+h1 {
+    text-align: center;
+    border: 1px solid #000;
+    font-family: "Times New Roman", sans-serif;
+    font-style: italic;
+}
+.green-heading{
+    color:green;
+}
+
+.text{
+    border: 1px solid black;
+}
+.alottext{
+    color: darkgreen
+}
+
+a{
+    color: red
+}
+
+.alottext a{
+    color:aqua
+}
+.menu > li{
+    border: 1px solid #000;
+}
+.alottext .bold{color: blue}
+
+.menu2 > li{
+    border: 1px solid #000;
+    width: 100px;
+    height: 40px;
+    color: orange;
+}
