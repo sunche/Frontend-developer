@@ -44,28 +44,25 @@ body {
     text-align: left;
 }
 
-.request-name {
+.request-input input {
     width: 200px;
-    margin-left: 15px;
     height: 20px;
     margin-bottom: 5px;
+}
+
+.request-name {
+    margin-left: 15px;
     color: black;
 }
 
 .request-email {
-    width: 200px;
     margin-left: 5px;
-    height: 20px;
-    margin-bottom: 5px;
     font-style: italic;
     color: darkblue;
 }
 
 .request-theme {
-    width: 200px;
     margin-left: 10px;
-    height: 20px;
-    margin-bottom: 5px;
 }
 
 .request-text {
