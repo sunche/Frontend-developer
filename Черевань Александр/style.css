@@ -20,7 +20,7 @@ body {
 }
 
 .product-description {
-    color: black;
+    color: #707070;
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
@@ -81,4 +81,8 @@ body {
 .product-img {
     padding: 1px;
     border: 1px solid #021a40;
+}
+
+.map {
+    margin: 10px;
 }
