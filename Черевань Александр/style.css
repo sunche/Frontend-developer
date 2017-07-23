@@ -44,7 +44,7 @@ body {
     text-align: left;
 }
 
-.request-input input {
+.request-input{
     width: 200px;
     height: 20px;
     margin-bottom: 5px;
