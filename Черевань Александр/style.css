@@ -2,6 +2,14 @@ body {
     background-color: #f8f8f8;
 }
 
+.float_left {
+    float: left;
+}
+
+.body_content {
+    clear: both;
+}
+
 .menu {
     font-size: 20px;
     font-style: italic;
@@ -10,6 +18,10 @@ body {
 
 .menu a {
     color: darkseagreen;
+}
+
+.menu a:hover {
+    color: mediumvioletred;
 }
 
 .property-header {
@@ -44,10 +56,11 @@ body {
     text-align: left;
 }
 
-.request-input{
+.request-input {
     width: 200px;
     height: 20px;
     margin-bottom: 5px;
+    text-transform: capitalize;
 }
 
 .request-name {
@@ -59,6 +72,12 @@ body {
     margin-left: 5px;
     font-style: italic;
     color: darkblue;
+    text-transform: none;
+}
+
+.request-email:focus {
+    background-color: lightgreen;
+    color: darkred;
 }
 
 .request-theme {
@@ -80,6 +99,29 @@ body {
     border: 1px solid #021a40;
 }
 
+.product-img:hover {
+    padding: 2px;
+    border: none;
+}
+
 .map {
     margin: 10px;
+}
+
+.products_list {
+    list-style-type: none;
+}
+
+.product_info p:first-letter {
+    font-stretch: extra-expanded;
+    font-size: 30px;
+}
+
+.composition_table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.composition_data {
+    border: 1px solid black;
 }
