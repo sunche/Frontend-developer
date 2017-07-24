@@ -120,8 +120,25 @@ body {
 .composition_table {
     border-collapse: collapse;
     border: 1px solid black;
+    min-width: 60%;
 }
 
 .composition_data {
+    border: 1px solid black;
+}
+
+.composition_main {
+    width: 40%;
+    text-align-last: right;
+}
+
+.composition_values {
+    width: 30%;
+    text-align: center;
+}
+
+.table_header {
+    height: 30px;
+    border-collapse: collapse;
     border: 1px solid black;
 }
