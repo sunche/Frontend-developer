@@ -20,6 +20,11 @@
 
 .body_3 {
     display: flex;
+/*    flex-direction: column-reverse;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: center;*/
+/*    justify-content: space-between;*/
+    justify-content: space-around
 }
 
 .block_2 {
