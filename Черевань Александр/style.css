@@ -73,6 +73,7 @@ body {
     font-style: italic;
     color: darkblue;
     text-transform: none;
+    outline: none;
 }
 
 .request-email:focus {
@@ -96,12 +97,11 @@ body {
 
 .product-img {
     padding: 1px;
-    border: 1px solid #021a40;
+    outline: 1px solid #021a40;
 }
 
 .product-img:hover {
-    padding: 2px;
-    border: none;
+    outline: none;
 }
 
 .map {
@@ -114,7 +114,7 @@ body {
 
 .product_info p:first-letter {
     font-stretch: extra-expanded;
-    font-size: 30px;
+    font-size: 2em;
 }
 
 .composition_table {
