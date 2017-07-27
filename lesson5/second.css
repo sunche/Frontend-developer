@@ -1,0 +1,31 @@
+.container
+{
+    clear: both;
+    width: 400px;
+    margin: 0 auto;
+}
+.header{
+    background-color: darkgreen;
+    height: 100px;
+    position: relative;
+}
+
+.main{
+    background-color: darkblue;
+    color: white;
+}
+.footer{
+    height: 100px;
+    background-color: gray;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+    
+    background-color: red;
+    
+    margin-top: 30px;
+    margin-left: 70px;
+    float: left;
+}
