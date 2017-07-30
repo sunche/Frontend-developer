@@ -146,14 +146,23 @@
 }
 
 .header {
-    height: 120px;
-    background-image: url(images/strawberry.jpg)
+    height: 190px;
+    background-image: url(images/meringues.jpg)
 }
 
 .logo {
     padding-left: 50px;
     display: inline-block;
+    height: inherit;
 }
+
+
+.sublogo{
+    height: inherit;
+    display: table-cell;
+    vertical-align: middle;
+}
+
 
 .menu_block {
     display: inline-block;
@@ -251,3 +260,4 @@
     border-radius: 10%;
     width: 50px;
 }
+
