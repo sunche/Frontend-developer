@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.slider {
+    height: 800px;
+    background-image: url(img/slider-img.jpg);
+    padding-left: 98px;
+}
+
+.logo {
+    display: block;
+    background-image: url(img/logo.png);
+    width: 185px;
+    height: 22px;
+    float: left;
+    margin-top: 63px;
+}
+
+.menu {
+    float: right;
+    margin-right: 211px;
+    margin-top: 67px;
+}
+
+.menu li {
+    list-style-type: none;
+    float: left;
+}
+
+.menu li a {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: right;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.menu li a:hover {
+    color: #212121;
+    font-size: 14px;
+    border-bottom: 3px solid black;
+}
+
+.menu li .active {
+    color: #212121;
+    font-size: 14px;
+    border-bottom: 3px solid black;
+}
+
+.box-text {
+    margin-top: 283px;
+    width: 458px;
+}
+
+.box-text h4 {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+
+.box-text h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.box-text p {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.box-text a {
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    line-height: 45px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    border-radius: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
