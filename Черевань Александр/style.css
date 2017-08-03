@@ -108,7 +108,7 @@ body {
     font-weight: 300;
     line-height: 24px;
     text-align: left;
-    margin-bottom: 28px;
+/*    margin-bottom: 28px;*/
     word-spacing: -1px;
 }
 
@@ -127,7 +127,8 @@ body {
     text-decoration: none;
     letter-spacing: 5px;
     line-height: 45px;
-    margin-left: 2px;
+    margin-left: 3px;
+    margin-top: 28px;
 }
 
 .slider_description a:hover {
@@ -136,6 +137,7 @@ body {
     height: 50px;
     line-height: 50px;
     border-radius: 25px;
+    margin-top: 23px;
 }
 
 .slider_description a:after {
@@ -166,6 +168,14 @@ body {
 }
 
 .slaider_points li .active{
+    background-color: black;
+    border-radius: 20px;
+    display:inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.slaider_points li a:hover{
     background-color: black;
     border-radius: 20px;
     display:inline-block;
