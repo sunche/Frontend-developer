@@ -1,40 +1,85 @@
-html, body{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
     height: 100%;
 }
 
-.container{
+.container {
     max-width: 1200px;
-    min-width: 700px;
+    min-width: 500px;
     margin: 0 auto;
     min-height: 100%;
 }
 
-
-.header{
+.header {
     background-color: darkcyan;
     height: 200px;
 }
 
-.nav{
+.nav {
     width: 200px;
     height: 200px;
     background-color: darkmagenta;
     float: left;
 }
 
-.main{
+.main {
     background-color: navajowhite;
-/*    padding-left: 200px;*/
+    /*    padding-left: 200px;*/
     margin-left: 200px;
 }
 
-.clr{
+.clr {
     height: 200px;
 }
 
-.footer{
+.footer {
     background-color: darkgray;
     height: 200px;
     clear: both;
     margin-top: -200px
+}
+
+
+/*
+.menu{
+ margin-left: -38px;   
+}
+*/
+
+.menu li {
+    width: 100px;
+    height: 40px;
+    outline: 1px solid black;
+    list-style-type: none;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+}
+
+.black {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    float: left;
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    .menu li {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .menu {
+        display: none;
+    }
+    .black {
+        display: block;
+    }
 }
