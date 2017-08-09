@@ -1,4 +1,4 @@
-@mainpadding: 50px;
+
 body {
     font-family: 'Arial';
 }
@@ -13,6 +13,14 @@ body {
     height: 100%;
 }
 
+
+.sectionStylesMixin{
+    padding: 50px;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
 .container {
     height: 100%;
     max-width: 1280px;
@@ -25,16 +33,12 @@ body {
     display: table;
 }
 
-.header {
+.pageHeader {
     min-height: 323px;
     background-color: #445162;
     color: white;
     .product_description {
-        display: inline-block;
-        margin-right: 251px;
-        .indent {
-            height: 43px;
-        }
+        .sectionStylesMixin();
         h1 {
             font-size: 60px;
             font-weight: 400;
@@ -42,7 +46,8 @@ body {
             text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
             line-height: 60px;
             display: block;
-            margin: 0 0 32px 45px;
+            float: left;
+//            margin: 0 0 32px 45px;
         }
         ul {
             font-size: 20px;
@@ -51,6 +56,7 @@ body {
             text-align: left;
             text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
             display: block;
+            float: left;
             margin-left: 64px;
             li {
                 list-style-image: url(images/check%20icon.png);
@@ -62,7 +68,7 @@ body {
         width: 469px;
         height: 214px;
         background-color: white;
-        display: inline-block;
+        float: right;
     }
 }
 
@@ -106,7 +112,10 @@ footer {
                     padding-left: 13px;
                     box-sizing: border-box;
                     border-radius: 5px;
+                    border: none;
+                    outline: none;
                 }
+                
                 .message {
                     height: 170px;
                 }
