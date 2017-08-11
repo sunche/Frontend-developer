@@ -1,0 +1,29 @@
+body {
+    height: 2000px;
+}
+
+#parent {
+    position: relative;
+    top: 100px;
+    width: 300px;
+    height: 200px;
+    background: #29cc59;
+}
+
+#child {
+    width: 100px;
+    height: 100px;
+    background: #cc5317;
+    position: absolute;
+    top: 15px;
+    left: 300px;
+}
+
+#fixed {
+    width: 100px;
+    height: 100px;
+    background: #716ccc;
+    position: fixed;
+    right: 100px;
+    top: 50px;
+}
