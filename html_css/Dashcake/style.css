@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
 .menu {
     font-size: 20px;
     font-style: italic;
@@ -5,7 +15,7 @@
 }
 
 .menu a {
-    color:deepskyblue;
+    color: deepskyblue;
 }
 
 .menu li {
@@ -14,7 +24,7 @@
 }
 
 .menu a:hover {
-    color:darkorange;
+    color: darkorange;
 }
 
 .property-header {
@@ -22,6 +32,9 @@
     font-size: 18px;
     font-weight: 400;
     background-color: #eaeaea;
+    display: block;
+    margin-left: -20px;
+    padding-left: 15px;
 }
 
 .product-description {
@@ -32,7 +45,8 @@
 }
 
 .product-properties {
-    font-weight: 800;
+/*    font-weight: 800;*/
+    padding-left: 30px;
     line-height: 20px;
     list-style-image: url(images/cake_marker.png);
 }
@@ -50,23 +64,18 @@
 }
 
 .request-input {
-    width: 200px;
+    width: 245px;
     height: 20px;
     margin-bottom: 5px;
     text-transform: capitalize;
-}
-
-.request-name {
-    margin-left: 15px;
-    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .request-email {
-    margin-left: 5px;
     font-style: italic;
     color: darkblue;
     text-transform: none;
-    outline: none;
 }
 
 .request-email:focus {
@@ -74,19 +83,15 @@
     color: darkred;
 }
 
-.request-theme {
-    margin-left: 10px;
-}
-
 .request-text {
     width: 245px;
     font-family: "Times New Roman", sans-serif;
     margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-.check-subscription {
-    margin-bottom: 10px;
-}
+
 
 .product-img {
     padding: 1px;
@@ -126,6 +131,7 @@
 .composition_main {
     width: 40%;
     text-align-last: right;
+    padding-right: 5px;
 }
 
 .composition_values {
@@ -143,6 +149,9 @@
     background-color: #f8f8f8;
     max-width: 800px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 .header {
@@ -156,13 +165,11 @@
     height: inherit;
 }
 
-
-.sublogo{
+.sublogo {
     height: inherit;
     display: table-cell;
     vertical-align: middle;
 }
-
 
 .menu_block {
     display: inline-block;
@@ -179,12 +186,12 @@
 }
 
 .footer {
-    background-color: cornsilk;
+    background-color:lightgray;
     height: 40px;
+    line-height: 40px;
     text-align: right;
     padding-right: 15px;
-    padding-top: 15px;
-    box-sizing: border-box;
+    flex: 0 0 auto;
 }
 
 .product_block {
@@ -206,12 +213,13 @@
 .buy_btn {
     width: 150px;
     height: 40px;
-    margin-top: 20px;
+    margin: 20px;
     font-size: 30px;
+    border-radius: 10px;
+    outline: none;
 }
 
 .buy_btn:hover {
-    color: darkred;
     font-weight: bold;
 }
 
@@ -261,3 +269,62 @@
     width: 50px;
 }
 
+.body_content {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    flex: 1 0 auto;
+}
+
+.body_content header {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.body_content {
+    padding-left: 20px;
+}
+
+address{
+    font-style: normal;
+}
+
+address ul{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.request input{
+    display: block;
+    outline: none;
+}
+.request textarea{
+    display: block;
+}
+
+.request label{
+    display: block;
+    float: left;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.request .check_subscription{
+    display: block;
+    outline: none;
+    float: left;
+    margin-right: 5px
+}
+
+.sub_check{
+    height: 10px;
+    line-height: 10px;
+    margin: 10px;
+        
+}
+
+.request_form
+{
+    margin-bottom: 20px;
+}

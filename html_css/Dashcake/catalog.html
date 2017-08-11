@@ -4,63 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <title>Каталог | Дашкейк</title>
-    <link rel="dashcake icon" href="images/dashcake.ico">
+    <link rel="icon" href="images/dashcake.ico">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
-        <div class="header">
+        <header class="header">
             <div class="logo">
                 <div class="sublogo">
-                    <a href="#">
+                    <a href="index.html">
                         <img src="images/logo.png" alt="dashcakelogo">
                     </a>
                 </div>
             </div>
             <div class="menu_block">
-                <div class="submenu">
+                <nav class="submenu">
                     <ul class="menu">
                         <li><a href="index.html">Главная</a></li>
                         <li><a href="#">Каталог</a></li>
                         <li><a href="contacts.html">Контакты</a></li>
                     </ul>
-                </div>
+                </nav>
             </div>
-        </div>
-        <div class="body_content">
-            <hr>
+        </header>
+        <main class="body_content">
             <h1>Каталог</h1>
             <ul class="products_list">
                 <li>
-
-                    <a  class="product_link" href="products/cheesecake.html">
-                        <div class="catalog_product">
-                            <img src="images/cheesecake_small.jpg" alt="cheesecake"> Чикзейк
-                        </div>
-                    </a>
-
+                    <section>
+                        <a class="product_link" href="products/cheesecake.html">
+                            <div class="catalog_product">
+                                <img src="images/cheesecake_small.jpg" alt="cheesecake"> Чикзейк
+                            </div>
+                        </a>
+                    </section>
                 </li>
                 <li>
-                    <a  class="product_link" href="products/cupcake.html">
-                       <div class="catalog_product">
-                        <img src="images/cupcake_small.jpg" alt="cupcake">Капкейк
-                        </div>
-                    </a>
+                    <section>
+                        <a class="product_link" href="products/cupcake.html">
+                            <div class="catalog_product">
+                                <img src="images/cupcake_small.jpg" alt="cupcake">Капкейк
+                            </div>
+                        </a>
+                    </section>
                 </li>
                 <li>
+                   <section>
                     <a class="product_link" href="products/redvelvet.html">
-                       <div class="catalog_product">
-                        <img src="images/redvelvet_small.jpg" alt="red velvet">Красный бархат
+                        <div class="catalog_product">
+                            <img src="images/redvelvet_small.jpg" alt="red velvet">Красный бархат
                         </div>
                     </a>
+                    </section>
                 </li>
             </ul>
-            <hr>
-        </div>
-        <div class="footer">
-            <footer>&copy;&nbsp;Все права защищены</footer>
-        </div>
+        </main>
+        <footer class="footer">
+            &copy;&nbsp;Все права защищены
+        </footer>
     </div>
 </body>
 
