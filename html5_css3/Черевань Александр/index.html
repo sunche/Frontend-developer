@@ -5,16 +5,26 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <!--    <link rel="stylesheet" href="normalize.css">-->
+    <link rel="stylesheet" href="packages/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <!--        <link rel="stylesheet" href="normalize.css">-->
+    <!--    <link rel="stylesheet" href="layout.css">-->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
+
         <main>
             <header class="pageHeader">
                 <header class="productNameHeader">Product name</header>
                 <div class="product_image"></div>
-                <ul>
+                <ul class="hidden-xs">
+                    <li>Put on this page information about your product</li>
+                    <li>A detailed description of your product</li>
+                    <li>Tell us about the advantages and merits</li>
+                    <li> Associate the page with the payment system</li>
+                </ul>
+                <ul class="visible-xs list-xs">
                     <li>Put on this page information about your product</li>
                     <li>A detailed description of your product</li>
                     <li>Tell us about the advantages and merits</li>
@@ -217,6 +227,8 @@
             <div class="footer">Copyright &copy;&nbsp; 2014 Product name</div>
         </footer>
     </div>
+    <script src="packages/jquery/jquery1.12.4.min.js"></script>
+    <script src="packages/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>

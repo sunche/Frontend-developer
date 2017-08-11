@@ -1,0 +1,22 @@
+.root {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    background: #ccc;
+}
+
+.root:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 18px;
+    left: 0;
+    background: #716ccc;
+}
+
+.dropdown > li {
+    cursor: pointer;
+}

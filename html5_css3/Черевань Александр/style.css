@@ -5,6 +5,7 @@
 }
 html,
 body {
+  margin: 0;
   height: 100%;
   font-family: Arial, sans-serif;
 }
@@ -27,10 +28,24 @@ ul {
   width: 100%;
   float: left;
 }
-.pageHeader .productNameHeader,
-.pageHeader ul {
-  max-width: 50%;
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .pageHeader {
+    padding: 30px 40px;
+  }
 }
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .pageHeader {
+    padding: 20px 30px;
+  }
+}
+@media all and (max-width: 479px) {
+  .pageHeader {
+    padding: 10px 20px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+.pageHeader .productNameHeader,
 .pageHeader .productNameHeader {
   float: left;
   font-size: 60px;
@@ -39,11 +54,56 @@ ul {
   text-align: left;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
 }
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .pageHeader .productNameHeader,
+  .pageHeader .productNameHeader {
+    font-size: 50px;
+    line-height: 50px;
+    width: 100%;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .pageHeader .productNameHeader,
+  .pageHeader .productNameHeader {
+    font-size: 40px;
+    line-height: 40px;
+    width: 100%;
+  }
+}
+@media all and (max-width: 479px) {
+  .pageHeader .productNameHeader,
+  .pageHeader .productNameHeader {
+    font-size: 30px;
+    line-height: 30px;
+    width: 100%;
+  }
+}
 .pageHeader .product_image {
   width: 469px;
   height: 214px;
   background-color: white;
   float: right;
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .pageHeader .product_image {
+    float: left;
+    margin: 10px;
+    width: 100%;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .pageHeader .product_image {
+    float: left;
+    margin: 10px;
+    width: 100%;
+  }
+}
+@media all and (max-width: 479px) {
+  .pageHeader .product_image {
+    float: left;
+    margin: 10px;
+    width: 100%;
+  }
 }
 .pageHeader ul {
   float: left;
@@ -55,11 +115,35 @@ ul {
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
   list-style: inside url("images/check_icon.png");
 }
+.pageHeader .list-xs {
+  list-style: none;
+  width: 100%;
+}
+.pageHeader .list-xs li:nth-child(odd) {
+  color: burlywood;
+}
 .aboutProduct {
   padding: 40px 50px;
   box-sizing: border-box;
   width: 100%;
   float: left;
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .aboutProduct {
+    padding: 30px 40px;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .aboutProduct {
+    padding: 20px 30px;
+  }
+}
+@media all and (max-width: 479px) {
+  .aboutProduct {
+    padding: 10px 20px;
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 .aboutProduct .aboutProductHeader {
   color: #445161;
@@ -68,11 +152,39 @@ ul {
   line-height: 36px;
   text-align: center;
 }
+@media all and (max-width: 479px) {
+  .aboutProduct .aboutProductHeader {
+    text-align: left;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
 .aboutProduct .aboutProductImg {
   background: #445161;
-  width: 430px;
-  height: 245px;
+  width: 400px;
+  height: 200px;
   float: right;
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .aboutProduct .aboutProductImg {
+    float: left;
+    margin: 10px;
+    width: 100%;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .aboutProduct .aboutProductImg {
+    float: left;
+    margin: 10px;
+    width: 100%;
+  }
+}
+@media all and (max-width: 479px) {
+  .aboutProduct .aboutProductImg {
+    float: left;
+    margin: 10px;
+    width: 100%;
+  }
 }
 .aboutProduct .aboutProductHeader,
 .aboutProduct .aboutDesc {
@@ -92,12 +204,36 @@ ul {
   float: left;
   background-color: #f5f5f5;
 }
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .pluses {
+    padding: 30px 40px;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .pluses {
+    padding: 20px 30px;
+  }
+}
+@media all and (max-width: 479px) {
+  .pluses {
+    padding: 10px 20px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
 .pluses .plusesHeader {
   color: #445161;
   font-size: 30px;
   font-weight: 400;
   line-height: 36px;
   text-align: center;
+}
+@media all and (max-width: 479px) {
+  .pluses .plusesHeader {
+    text-align: left;
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 .pluses .plusesList {
   float: left;
@@ -123,12 +259,36 @@ ul {
   width: 100%;
   float: left;
 }
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .screenshots {
+    padding: 30px 40px;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .screenshots {
+    padding: 20px 30px;
+  }
+}
+@media all and (max-width: 479px) {
+  .screenshots {
+    padding: 10px 20px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
 .screenshots .screenshotsHeader {
   color: #445161;
   font-size: 30px;
   font-weight: 400;
   line-height: 36px;
   text-align: center;
+}
+@media all and (max-width: 479px) {
+  .screenshots .screenshotsHeader {
+    text-align: left;
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 .screenshots .screenshotUnit {
   color: #445161;
@@ -161,12 +321,36 @@ ul {
   float: left;
   background: #f5f5f5;
 }
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .reviews {
+    padding: 30px 40px;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .reviews {
+    padding: 20px 30px;
+  }
+}
+@media all and (max-width: 479px) {
+  .reviews {
+    padding: 10px 20px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
 .reviews .reviewsHeader {
   color: #445161;
   font-size: 30px;
   font-weight: 400;
   line-height: 36px;
   text-align: center;
+}
+@media all and (max-width: 479px) {
+  .reviews .reviewsHeader {
+    text-align: left;
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 .reviews .reviewUnit {
   width: 50%;
@@ -216,6 +400,23 @@ ul {
   width: 100%;
   float: left;
 }
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .buyItNow {
+    padding: 30px 40px;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .buyItNow {
+    padding: 20px 30px;
+  }
+}
+@media all and (max-width: 479px) {
+  .buyItNow {
+    padding: 10px 20px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
 .buyItNow .buyItNowHeader {
   color: #445161;
   font-size: 30px;
@@ -223,6 +424,13 @@ ul {
   line-height: 36px;
   text-align: center;
   margin-bottom: 30px;
+}
+@media all and (max-width: 479px) {
+  .buyItNow .buyItNowHeader {
+    text-align: left;
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 .buyItNow .buyUnits {
   max-width: 990px;
@@ -300,6 +508,23 @@ footer .contacts {
   width: 100%;
   float: left;
 }
+@media all and (min-width: 768px) and (max-width: 991px) {
+  footer .contacts {
+    padding: 30px 40px;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 767px) {
+  footer .contacts {
+    padding: 20px 30px;
+  }
+}
+@media all and (max-width: 479px) {
+  footer .contacts {
+    padding: 10px 20px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
 footer .contacts_data {
   margin: 0 auto;
   max-width: 800px;
@@ -311,6 +536,13 @@ footer .contacts_data header {
   line-height: 36px;
   color: #ffffff;
   text-align: center;
+}
+@media all and (max-width: 479px) {
+  footer .contacts_data header {
+    text-align: left;
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 footer .contacts_data .request {
   float: left;
