@@ -3,23 +3,16 @@
   font-family: SocialIco;
   src: url("fonts/Socialico.ttf");
 }
-html,
-body {
-  margin: 0;
-  height: 100%;
-  font-family: Arial, sans-serif;
-}
-h1,
-ul {
-  margin: 0;
-}
-.container {
+nav {
   max-width: 1280px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-  color: #ffffff;
+}
+.test {
+  max-width: 1280px;
+  height: 50px;
+  background-color: black;
+  margin: 0 auto;
+  padding: 0;
 }
 .pageHeader {
   background-color: #445161;
@@ -52,7 +45,7 @@ ul {
   line-height: 60px;
   font-weight: 400;
   text-align: left;
-  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 1 0 rgba(0, 0, 0, 0.3);
 }
 @media all and (min-width: 768px) and (max-width: 991px) {
   .pageHeader .productNameHeader,
@@ -157,6 +150,7 @@ ul {
     text-align: left;
     font-size: 20px;
     line-height: 20px;
+    width: 100%;
   }
 }
 .aboutProduct .aboutProductImg {
@@ -233,6 +227,7 @@ ul {
     text-align: left;
     font-size: 20px;
     line-height: 20px;
+    width: 100%;
   }
 }
 .pluses .plusesList {
@@ -288,6 +283,7 @@ ul {
     text-align: left;
     font-size: 20px;
     line-height: 20px;
+    width: 100%;
   }
 }
 .screenshots .screenshotUnit {
@@ -350,6 +346,7 @@ ul {
     text-align: left;
     font-size: 20px;
     line-height: 20px;
+    width: 100%;
   }
 }
 .reviews .reviewUnit {
@@ -430,6 +427,7 @@ ul {
     text-align: left;
     font-size: 20px;
     line-height: 20px;
+    width: 100%;
   }
 }
 .buyItNow .buyUnits {
@@ -542,6 +540,7 @@ footer .contacts_data header {
     text-align: left;
     font-size: 20px;
     line-height: 20px;
+    width: 100%;
   }
 }
 footer .contacts_data .request {
