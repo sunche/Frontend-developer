@@ -3,17 +3,6 @@
   font-family: SocialIco;
   src: url("fonts/Socialico.ttf");
 }
-nav {
-  max-width: 1280px;
-  margin: 0 auto;
-}
-.test {
-  max-width: 1280px;
-  height: 50px;
-  background-color: black;
-  margin: 0 auto;
-  padding: 0;
-}
 .pageHeader {
   background-color: #445161;
   padding: 40px 50px;
