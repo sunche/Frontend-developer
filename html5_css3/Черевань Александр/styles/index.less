@@ -1,10 +1,9 @@
 @import "variables";
 
 .pageHeader {
-    background-color: @darkGray;
+    background-color: @darkColor;
     .sectionStylesMixin();
 
-    .productNameHeader,
     .productNameHeader {
         float: left;
         font-size: 60px;
@@ -99,7 +98,7 @@
     }
 
     .aboutProductImg {
-        background: @darkGray;
+        background: @darkColor;
         width: 400px;
         height: 200px;
         float: right;
@@ -144,7 +143,7 @@
     }
 
     .aboutDesc {
-        color: @darkGray;
+        color: @darkColor;
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
@@ -153,7 +152,7 @@
 
 .pluses {
     .sectionStylesMixin();
-    background-color: @sectionGray;
+    background-color: @sectionColor;
 
     .plusesHeader {
         .sectionHeaderStylesMixin();
@@ -163,7 +162,7 @@
         float: left;
         list-style: none;
         padding-left: 0;
-        color: @darkGray;
+        color: @darkColor;
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
@@ -188,14 +187,14 @@
     }
 
     .screenshotUnit {
-        color: @darkGray;
+        color: @darkColor;
         width: 50%;
         float: left;
         padding: 30px 16px 0 0;
         box-sizing: border-box;
 
         .screenshotImg {
-            background: @darkGray;
+            background: @darkColor;
             float: left;
             margin-right: 15px;
             width: 200px;
@@ -232,7 +231,7 @@
 
         .reviewImg {
             border-radius: 50%;
-            background: @darkGray;
+            background: @darkColor;
             width: 75px;
             height: 75px;
             float: left;
@@ -242,7 +241,7 @@
 
         .review {
             position: relative;
-            color: @darkGray;
+            color: @darkColor;
             font-size: 14px;
             font-style: italic;
             line-height: 18px;
@@ -292,15 +291,15 @@
 
         .buyUnit {
             width: 298px;
-            background: @darkGray;
+            background: @darkColor;
             border-radius: 4px;
-            border: 2px solid @darkGray;
+            border: 2px solid @darkColor;
 
             .buyTariff {
                 padding: 17px;
                 box-sizing: border-box;
                 text-align: center;
-                color: @lightGray;
+                color: @lightColor;
                 font-size: 24px;
                 font-weight: 400;
                 line-height: 30px;
@@ -310,15 +309,15 @@
                 text-align: center;
                 padding: 18px;
                 box-sizing: border-box;
-                color: @darkGray;
-                background: @lightGray;
+                color: @darkColor;
+                background: @lightColor;
                 font-size: 40px;
                 font-weight: 400;
                 line-height: 30px;
             }
 
             .buyUnitList {
-                color: @lightGray;
+                color: @lightColor;
                 font-size: 14px;
                 font-weight: 400;
                 line-height: 24px;
@@ -336,8 +335,8 @@
                 text-transform: uppercase;
                 padding: 14px;
                 box-sizing: border-box;
-                background: @lightGray;
-                color: @darkGray;
+                background: @lightColor;
+                color: @darkColor;
                 font-size: 18px;
                 font-weight: 700;
                 line-height: 18px;
@@ -360,7 +359,7 @@ main {
 
 footer {
     flex: 0 0 auto;
-    background: @darkGray;
+    background: @darkColor;
 
     .contacts {
         .sectionStylesMixin();
@@ -372,7 +371,7 @@ footer {
 
         header {
             .sectionHeaderStylesMixin();
-            color: @lightGray;
+            color: @lightColor;
             text-align: center;
         }
 
@@ -383,7 +382,7 @@ footer {
                 input,
                 textarea {
                     display: block;
-                    color: @darkGray;
+                    color: @darkColor;
                     font-size: 16px;
                     font-weight: 400;
                     line-height: 40px;
@@ -406,7 +405,7 @@ footer {
                     font-size: 16px;
                     font-weight: 700;
                     line-height: 24px;
-                    background-color: @lightGray;
+                    background-color: @lightColor;
                     cursor: pointer;
                     margin: 22px auto;
                 }
@@ -437,32 +436,32 @@ footer {
             .email,
             .phone {
                 padding-left: 30px;
-                color: @lightGray;
+                color: @lightColor;
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 28px;
             }
 
             .skype {
-                background: url("images/skype_icon.png") no-repeat left center;
+                background: url("../images/skype_icon.png") no-repeat left center;
             }
 
             .icq {
-                background: url("images/icq_icon.png") no-repeat left center;
+                background: url("../images/icq_icon.png") no-repeat left center;
             }
 
             .email {
-                background: url("images/email_icon.png") no-repeat left center;
+                background: url("../images/email_icon.png") no-repeat left center;
             }
 
             .phone {
-                background: url("images/phone_icon.png") no-repeat left center;
+                background: url("../images/phone_icon.png") no-repeat left center;
             }
 
             .socialIcons {
                 margin-top: 30px;
                 font-family: SocialIco, sans-serif;
-                color: @lightGray;
+                color: @lightColor;
                 font-size: 60px;
                 font-weight: 400;
                 line-height: 24px;
