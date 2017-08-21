@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="packages/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+
+<body>
+    <script src="packages/jquery/jquery1.12.4.min.js"></script>
+    <script src="packages/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</body>
+<div class="container-fluid">
+    <nav class="navbar navbar-default">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topNav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index_adaptive.html">Company</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="topNav">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Start</a></li>
+                <li><a href="index_adaptive.html">Start adaptive</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="form.html">Form/Video</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="backvideo">
+            <video src="files/back.mp4" autoplay loop muted></video>
+        </div>
+        <div class="content">
+            <form action="" oninput="result.value=range.value">
+                <label for="product">Продукты:</label>
+                <input id="product" list="products">
+                <datalist id="products">
+                    <option label="Шезлонг" value="Chaise-longue"></option>
+                    <option label="Коляска" value="Baby carriage"></option>
+                    <option label="Слинг" value="sling"></option>
+                </datalist>
+                <br>
+                <label for="date">Дата:</label>
+                <input type="date" id="date">
+                <br>
+                <label for="date">Время:</label>
+                <input type="time" id="time">
+                <br>
+                <label for="fulltime">Полная дата:</label>
+                <input type="datetime-local" id="fulltime">
+                <br>
+                <label for="month">Месяц:</label>
+                <input type="month" id="month">
+                <br>
+                <label for="week">Неделя:</label>
+                <input type="week" id="week">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+                <br>
+                <label for="url">Url:</label>
+                <input type="url" id="email">
+                <br>
+                <label for="number">Число:</label>
+                <input type="number" id="number">
+                <br>
+                <label for="color">Цвет:</label>
+                <input type="color" id="color">
+                <br>
+                <label for="firstname">Имя:</label>
+                <input type="text" id="firstname" autofocus pattern="[А-Яа-я]+">
+                <br>
+                <!--
+                <input type="image" src="images/">
+                <br>
+-->
+                <label for="range">Интервал:</label>
+                <input type="range" id="range" name="range" value="5" step="1">
+                <br>
+                <output for="range" name="result">0</output>
+                <input type="submit" >
+            </form>
+            <div class="video">
+                <video src="files/bi2.mp4" controls preload="metadata" loop/>
+            </div>
+        </div>
+    </main>
+</div>
+
+</html>
